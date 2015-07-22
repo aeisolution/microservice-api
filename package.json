@@ -1,0 +1,31 @@
+{
+  "name": "microservice-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha -u bdd -R spec -t 500 --recursive",
+    "watch": "mocha -u bdd -R spec -t 500 --recursive --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://aeisolution@github.com/aeisolution/microservice-api.git"
+  },
+  "keywords": [
+    "microservice",
+    "api",
+    "REST"
+  ],
+  "author": "aeisolution <info@aeisolution.it>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  }
+}
