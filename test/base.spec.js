@@ -87,7 +87,6 @@ describe('API request', function(){
 				request(app)
 					.post('/api/samples')
 					.send({})
-					.set('Accept', 'application/json')
 					.expect(400, done);
 			});
 			it('add new items in samples collection', function(done){
